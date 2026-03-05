@@ -253,7 +253,7 @@
 					<type>jar</type>
                 		</artifactItem>
 <!-- artifactItem section for mock-sdk-jpeg-extractor -->
-				<artifactItem>
+				<!--<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk-jpeg-extractor</artifactId>
 					<version>${mock-sdk-jpeg-extractor.version}</version>
@@ -261,7 +261,7 @@
 					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
-				</artifactItem>
+				</artifactItem>-->
 <!-- artifactItem section for mock-sdk-jpeg-extractor lib-->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
@@ -271,7 +271,7 @@
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>	
-				<artifactItem>
+				<!--<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk-jpeg-extractor</artifactId>
 					<version>${mock-sdk-jpeg-extractor.version}</version>
@@ -279,7 +279,7 @@
 					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
-				</artifactItem>
+				</artifactItem>-->
 <!-- artifactItem section for biosdk library -->
 <!-- Commented as per discussion. as jar with dependencies will have components of jar as well.
 				<artifactItem>
