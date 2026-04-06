@@ -207,3 +207,7 @@ CMD ["nginx", "-g", "daemon off;"]
 ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
 
 COPY /src/sdk/tech5/* ${tech5_zip_path}/
+
+ENV neurotech_biosdk_lib_zip_path=${base_path}/libs-release-local/neurotech/
+RUN mkdir -p ${neurotech_biosdk_lib_zip_path}/windows-sdk
+COPY src/sdk/neuroTech-bioSdk/sdkDependency.zip ${neurotech_biosdk_lib_zip_path}/windows-sdk/
